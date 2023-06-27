@@ -415,17 +415,28 @@
         <p class="form-suptittle">Leave your contacts and we will call you back</p>
 <form class="modal-form" action="">
     <label class="form-label" for="">Name
-        <input class="form-input" type="text" name="username">
+        <input class="form-input" type="text" name="username" autofocus>
+        <svg class="modal-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-person"></use>
+        </svg>
     </label>
+    
     <label class="form-label" for="">Phone
-        <input class="form-input" name="phone-number" type="tel">
+        <input class="form-input" name="contact_tel" type="tel">
+        <svg class="modal-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-phone"></use>
+        </svg>
     </label>
+    
     <label class="form-label" for="">Email
         <input class="form-input" name="email" type="email">
+        <svg class="modal-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-email"></use>
+        </svg>
     </label>
-    <label class="form-label" for="">Comment
+        <label class="form-label" for="">Comment
         <textarea class="textarea" name="description" 
-            placeholder="Text input" id="" cols="30" rows="7"></textarea>
+            placeholder="Text input" id="" rows="7"></textarea>
     </label>
     <button class="form-button" type="submit">Send</button>
 </form>
