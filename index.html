@@ -409,37 +409,34 @@
             </ul>
            </div>
         <!-- ___________ Subscribe_footer _____________ -->
-           <div class="subscribe-container">
+        <div class="subscribe-container">
             <p class="subscribe-suptitle">Subscribe</p>
-            <label class="subscribe-label">
-                <input class="subscribe-input"
-        name="subscribe-email" 
-        type="email" 
-        autofocus
-        minlength="3"
-        placeholder="E-mail">
-    <button class="subscribe-btn" type="submit">Subscribe
-        <svg class="subscribe-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-telegram"></use>
-        </svg>
-    </button></label>
-           </div>
-       </div>
-       
-    </footer>
+            <form class="subscribe-form">
+                <label class="subscribe-label">
+                    <input class="subscribe-input" name="subscribe-email" type="email" autofocus minlength="3"
+                        placeholder="E-mail">
+                </label>
+                <button class="subscribe-btn" type="submit">Subscribe
+                    <svg class="subscribe-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-telegram"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        </div>
+        </footer>
    
 <!-- =============== MODAL_WINDOW ================= -->
  <div class="backdrop is-hidden" data-modal>
     <div class="modal-window">
         <strong class="form-suptitle">Leave your contacts and we will call you back</strong>
-<form class="modal-form" action="" autocomplete="on">
+<form class="modal-form" autocomplete="on">
 <div class="form-field">
-    <label class="form-label" for="">Name
+    <label class="form-label">Name
         <input class="form-input" 
         type="text" 
         name="username" 
-        autofocus
-        required
+                required
         minlength="3">
     <svg class="modal-icon" width="22" height="22">
         <use href="./images/icons.svg#icon-person"></use>
@@ -447,11 +444,10 @@
     </label>
    </div>
 <div class="form-field">
-    <label class="form-label" for="">Phone
+    <label class="form-label">Phone
         <input class="form-input" 
         name="contact_tel" 
         type="tel" 
-        autofocus
         required
         minlength="3">
         <svg class="modal-icon" width="22" height="22">
@@ -460,11 +456,10 @@
     </label>
    </div>
 <div class="form-field">
-    <label class="form-label" for="">Email
+    <label class="form-label">Email
             <input class="form-input" 
         name="email" 
         type="email" 
-        autofocus
         required
         minlength="3">
         <svg class="modal-icon" width="22" height="22">
@@ -481,7 +476,7 @@
         
     </div>
      <div class="modal-agreement">
-        <label class="modal-chekbox" for="">
+        <label class="modal-chekbox">
             <input class="form-chekbox"
             type="checkbox">
            <span class="form-deskr">I accept the terms and conditions of the <a class="form-link" href="">Privacy Policy</a></span>
