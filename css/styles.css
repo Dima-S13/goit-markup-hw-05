@@ -868,13 +868,17 @@ color: rgba(46, 47, 66, 0.4);
     
 .textarea:focus-within {border-color: var(--iris-btn-background);}
 
-   
+   /* ------- CHEK-BOX --------- */
+
+     .modal-agreement
+     {margin-bottom: 24px;}
+     
 .modal-chekbox
 {display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-margin-bottom: 24px;}
+}
 
 .form-chekbox
 { appearance: none;
