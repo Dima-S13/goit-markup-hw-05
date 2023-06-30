@@ -876,11 +876,16 @@ color: rgba(46, 47, 66, 0.4);
      .modal-agreement
      {margin-bottom: 16px;}
 
-.modal-chekbox
+.chekbox-label
 {display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+
+  color: var(--slate-customers-color);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.0.4em;
 }
 
 .form-chekbox
@@ -906,10 +911,7 @@ border-color: transparent;}
 /* .check__input:checked+.check__box */
 
 .form-deskr
-{color: #8E8F99;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.48px;}
+{}
 
   .form-link
   {color: var(--iris-btn-background);
