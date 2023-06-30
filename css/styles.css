@@ -552,7 +552,8 @@ outline: transparent;}
   color: var(--main-bg-color);
   font-size: 12px;
   line-height: 2;
-  letter-spacing: 0.48px;}
+  letter-spacing: 0.48px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));}
 
   .subscribe-btn
   {display: inline-flex;
@@ -668,12 +669,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .portfolio-image-link:hover .overlay,
 .portfolio-image-link:focus .overlay
 { transform: translateY(0%); }
-
-/* .overlay-text 
-{color: var(--cloud-suptitle-light);
-font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;} */
 
 .portfolio-image-title
 {font-weight: 500;
