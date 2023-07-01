@@ -864,7 +864,7 @@ color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
     resize: none;
     color: var(--main-text-color);
-   
+    font-size: 12px;
       line-height: 1.17;
       letter-spacing: 0.04em;
     padding: 8px 16px; 
@@ -877,6 +877,7 @@ color: rgba(46, 47, 66, 0.4);
     
 .form-textarea:focus-within {
   border-color: var(--iris-btn-background);
+  color: rgba(46, 47, 66, 0.4);
 }
 
    /* ------- CHECK-BOX --------- */
