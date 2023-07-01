@@ -863,59 +863,66 @@ color: rgba(46, 47, 66, 0.4);
     padding: 8px 16px; 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-  .textarea::placeholder 
+  .form-textarea::placeholder 
   { color: var(--slate-customers-color);
      padding-left: 2px;
     padding-top: 8px;
      }
     
-.textarea:focus-within {border-color: var(--iris-btn-background);}
+.form-textarea:focus-within {
+  border-color: var(--iris-btn-background);
+}
 
-   /* ------- CHEK-BOX --------- */
+   /* ------- CHECK-BOX --------- */
 
      .modal-agreement
      {margin-bottom: 16px;}
 
 .chekbox-label
-{display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-
-  color: var(--slate-customers-color);
+{  color: var(--slate-customers-color);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.0.4em;
 }
+.span-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
+  cursor: pointer;
+}
+.input-chekbox
+{appearance: none; }
 
-.form-chekbox
-{ appearance: none;
+.input-checkbox:checked + .chekbox-label .span-box {
+  background-color: var(--iris-btn-background);
+fill: var(--cloud-suptitle-light);
+outline: none;}
 
-width: 16px;
-height: 16px;
-border-radius: 2px;
-border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+/* border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
-background-image: url(../images/checkmark.svg);
+/* background-image: url(../images/checkmark.svg);
 background-repeat: no-repeat;
 background-position: center;
-background-size: 13px;
-}
+background-size: 13px; */
 
-.form-chekbox:checked 
-{background-color: var(--hover-ocean-color);
+
+/* .input-checkbox:checked 
+{background-color: var(--iris-btn-background);
   outline: none;
-border-color: transparent;}
+border-color: transparent;} */
 
-/* .check__input:checked+.check__box */
-
-.form-deskr
-{}
 
   .form-link
   {color: var(--iris-btn-background);
-  text-decoration: underline;}
+  text-decoration: underline;
+margin-left: 2px;}
 
      .form-button {
        align-self: center;
