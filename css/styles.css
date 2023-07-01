@@ -882,7 +882,7 @@ color: rgba(46, 47, 66, 0.4);
 {  color: var(--slate-customers-color);
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.0.4em;
+    letter-spacing: 0.04em;
 }
 .span-box {
   display: inline-flex;
